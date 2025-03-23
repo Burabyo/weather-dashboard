@@ -1,4 +1,4 @@
-//const apiKey = "b669a40811493504f4a43928ed7442bc";
+
 // const config = require('./config');  // Import config.js
 const apiKey = window.config.apiKey;
 //const apiUrl = `${config.apiUrl}?q=London&appid=${apiKey}`;
