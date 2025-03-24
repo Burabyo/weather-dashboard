@@ -1,58 +1,68 @@
+/* Set default styles for the body */
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-image:url(../weather2.avif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center; 
+  background-image: url(../weather2.avif); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  margin: 0; 
+  padding: 0;
 }
-.header{
+
+/* Style for the header section */
+.header {
   font-size: 60px;
-
+  
 }
 
+/* Style for the main container */
 .container {
-    max-width: 400px;
-    margin: 50px auto;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 40px 50px 40px 50px;
+  max-width: 400px;
+  margin: 50px auto; 
+  background: white;
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  padding: 40px 50px 40px 50px; 
 }
 
+/* Style for h1 elements */
 h1 {
-    margin-bottom: 20px;
+  margin-bottom: 20px; 
 }
 
+/* Style for the search box */
 .search-box {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    margin-bottom: 20px;
+  display: flex; 
+  gap: 10px; 
+  justify-content: center; 
+  margin-bottom: 20px; 
 }
 
+/* Style for the input field */
 input {
-    padding: 10px;
-    width: 200px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  padding: 10px; 
+  width: 200px;
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
 }
 
+/* Style for the search button */
 button {
-    padding: 10px 15px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 10px 15px; 
+  background-color: #007BFF; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
 }
 
+/* Style for button hover effect */
 button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3; 
 }
 
+/* Style for the weather result display */
 #weatherResult {
-    margin-top: 20px;
-    font-size: 18px;
+  margin-top: 20px;
+  font-size: 18px; 
 }

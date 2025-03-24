@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Set character encoding and viewport for responsive design -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title of the webpage -->
     <title>Weather Dashboard</title>
+    
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header section containing title and description -->
     <div class="header">
         <h1>Sky Cast</h1>
-        <h2>Welco
-          me to my weather-app </h2>
+        <h2>Welcome to my weather-app</h2>
         <p>Type in your city and press Enter to easily explore your weather</p>
     </div>
-  <div class="container">
+  
+    <!-- Main container for the weather dashboard -->
+    <div class="container">
         <h1>Weather Dashboard</h1>
+        
+        <!-- Search box for user input -->
         <div class="search-box">
             <input type="text" id="cityInput" placeholder="Enter city name">
             <button id="searchBtn">Search</button>
         </div>
+        
+        <!-- This section will display weather results dynamically -->
         <div id="weatherResult">
             <!-- Weather data will be inserted here -->
-             
         </div>
     </div>
 
+    <!-- Link to external JavaScript files -->
     <script src="config.js"></script>
     <script src="script.js"></script>
 </body>
